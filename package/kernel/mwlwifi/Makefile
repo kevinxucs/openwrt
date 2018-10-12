@@ -8,7 +8,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mwlwifi
-PKG_VERSION:=10.3.4.0.git-2017-06-06
+PKG_VERSION:=10.3.8.0.git-2018-10-08
 PKG_RELEASE=1
 
 PKG_LICENSE:=ISC
