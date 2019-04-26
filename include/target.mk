@@ -17,7 +17,7 @@ DEFAULT_PACKAGES:=base-files libc libgcc busybox dropbear mtd uci opkg netifd fs
 # For nas targets
 DEFAULT_PACKAGES.nas:=block-mount fdisk lsblk mdadm
 # For router targets
-DEFAULT_PACKAGES.router:=dnsmasq iptables ip6tables ppp ppp-mod-pppoe firewall odhcpd odhcp6c
+DEFAULT_PACKAGES.router:=dnsmasq-full iptables ip6tables ppp ppp-mod-pppoe firewall odhcpd odhcp6c ca-bundle htop iftop unbound libustream-openssl luci-app-advanced-reboot luci-app-ddns luci-app-firewall luci-app-statistics luci-app-upnp luci-app-wol luci-app-nlbwmon collectd-mod-df collectd-mod-iptables block-mount e2fsprogs kmod-fs-ext4 kmod-usb2 kmod-usb-storage tcpdump vim lsof iwinfo mkf2fs
 DEFAULT_PACKAGES.bootloader:=
 
 ifneq ($(DUMP),)
